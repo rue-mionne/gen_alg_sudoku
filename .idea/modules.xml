@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SudokuAlgorytmGenetyczny.iml" filepath="$PROJECT_DIR$/SudokuAlgorytmGenetyczny.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../WyrwaTracker/src/main/gen_alg/gen_alg.iml" filepath="$PROJECT_DIR$/../WyrwaTracker/src/main/gen_alg/gen_alg.iml" />
+    </modules>
+  </component>
+</project>
