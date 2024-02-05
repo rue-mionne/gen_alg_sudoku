@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70f6e374-989d-4181-b4ff-c24bf56470da" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gen_alg_impl/Pole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gen_alg_impl/SudokuRozw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/progui/ControllerMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/progui/StartProg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/progui/SudokuUI.fxml" afterDir="false" />
+    <list default="true" id="70f6e374-989d-4181-b4ff-c24bf56470da" name="Changes" comment="Forgot to commit and finished the whole program, ups">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/progui/ControllerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/progui/ControllerMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +65,20 @@
       <option name="presentableId" value="Default" />
       <updated>1704701937060</updated>
     </task>
+    <task id="LOCAL-00001" summary="Forgot to commit and finished the whole program, ups">
+      <option name="closed" value="true" />
+      <created>1706731885389</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706731885389</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Forgot to commit and finished the whole program, ups" />
+    <option name="LAST_COMMIT_MESSAGE" value="Forgot to commit and finished the whole program, ups" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

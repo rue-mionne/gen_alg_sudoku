@@ -246,7 +246,7 @@ public void populate() {
                         for(int i=0;i<81;i++){
                             AFields.get(i).setText(""+((Pole)rozw.getGenome().get(i)).getVal());
                         }
-                        LiczbaPokolen.setText("Pokolenie: "+inkubatorM.getGenerationCount()+" ,konflity: " +((SudokuRozw) inkubatorM.getSpecimen().get(0)).score);
+                        LiczbaPokolen.setText("Pokolenie: "+inkubatorM.getGenerationCount()+", konflity: " +((SudokuRozw) inkubatorM.getSpecimen().get(0)).score);
                     }
                 });
 
@@ -271,8 +271,16 @@ public void populate() {
                         Pole poleTempl = new Pole();
                         SudokuRozw specTempl = new SudokuRozw(poleTempl,setFields);
                         Incubator inkubator = new IncubatorBase(specTempl);
-                        for(TextField pole:QFields){
-                            pole.setDisable(true);
+                        for(int index =0;index<81;index++){
+                            try {
+                                Integer wartosc = Integer.parseInt(QFields.get(index).getText());
+                                if(wartosc>-1&&wartosc<10){
+                                    setFields.set(index,wartosc);
+                                }
+                            }
+                            catch(NumberFormatException e){
+                            }
+                            QFields.get(index).setDisable(true);
                         }
                         Populacja.setDisable(true);
                         MaxIloscPokolen.setDisable(true);
